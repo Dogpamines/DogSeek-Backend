@@ -1,0 +1,2 @@
+### comparisonProducts(사료 비교)
+GET http://localhost:8080/products/comparison?prodCode1=2&prodCode2=30

@@ -3,3 +3,6 @@ GET http://localhost:8080/products
 
 ### selectProductsByNo(사료 상세 조회)
 GET http://localhost:8080/products/20
+
+### comparisonProducts(사료 비교)
+GET http://localhost:8080/products/comparison?prodCode1=2&prodCode2=30

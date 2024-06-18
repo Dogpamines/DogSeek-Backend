@@ -11,4 +11,6 @@ public interface ProductsMapper {
     List<ProductsDTO> selectAllProducts();
 
     Object selectFindByCode(int prodCode);
+
+    List<ProductsDTO> productsComparison(int prodCode1, int prodCode2);
 }

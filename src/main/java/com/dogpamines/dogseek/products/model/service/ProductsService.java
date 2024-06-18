@@ -22,4 +22,8 @@ public class ProductsService {
     public Object selectFindByCode(int prodCode) {
         return productsMapper.selectFindByCode(prodCode);
     }
+
+    public List<ProductsDTO> productsComparison(int prodCode1, int prodCode2) {
+        return productsMapper.productsComparison(prodCode1, prodCode2);
+    }
 }

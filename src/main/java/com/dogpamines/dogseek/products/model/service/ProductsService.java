@@ -18,4 +18,8 @@ public class ProductsService {
     public List<ProductsDTO> selectAllProducts() {
         return productsMapper.selectAllProducts();
     }
+
+    public Object selectFindByCode(int prodCode) {
+        return productsMapper.selectFindByCode(prodCode);
+    }
 }

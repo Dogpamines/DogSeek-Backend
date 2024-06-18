@@ -9,4 +9,6 @@ import java.util.List;
 public interface ProductsMapper {
 
     List<ProductsDTO> selectAllProducts();
+
+    Object selectFindByCode(int prodCode);
 }
